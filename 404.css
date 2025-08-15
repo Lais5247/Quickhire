@@ -1,0 +1,47 @@
+.error-page {
+  /* Replace with your preferred image or gradient */
+  background-image: url('../images/404-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 90%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.message-box h1 {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.message-box p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.btn-home {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  background: var(--accent-color);
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-home:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
